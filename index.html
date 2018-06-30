@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Visualizing Gun Violence</title>
+    <!-- <link rel="stylesheet" href="assets/third_party/css/tufte.css"> -->
+    <link rel="stylesheet" href="assets/third_party/css/latex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+
+
+    <script 
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://revealjs.com/css/reveal.css">
+    <link rel="stylesheet" type="text/css" href="https://revealjs.com/css/theme/white.css">
+    <script src="https://revealjs.com/js/reveal.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/custom/css/base.css">
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <span><a href="#" class="website-title">Visualizing Gun Violence</a></span>
+        <div class="jump-links">
+          <div class="link"><a href="#">Home</a></div>
+          <div class="link"><a href="#introduction">Introduction</a></div>
+          <div class="link"><a href="#states">States</a></div>
+          <div class="link"><a href="#victims">Victims</a></div>
+          <div class="link"><a href="#bg">Background Checks</a></div>
+          <div class="link"><a href="#economics">Economics</a></div>
+          <div class="link"><a href="#map">Map</a></div>
+          <div class="link"><a href="#about">About</a></div>
+        </div>
+      </div>
+    </header>
+    <article class="reveal">
+      <div class="slides">
+        <section>
+          <section id="home" data-background-image="assets/custom/img/landing_background.png" data-background="rgb(27,27,27)" class ="slide">
+            <div class="left">
+              <h3><span class="title-span" style="color: #ff5733;">14,647</span> people were killed and <span class="title-span" style="color: #ff5733;">29,678</span> injured in Gun related violence
+              <div class="supporting_text" style="display: inline-block;"><span>IN 2017</span></div></h3>
+            </div>
+            <div class="right">
+            </div>
+          </section>
+          <section id="introduction" class ="slide">
+            <div class="left">
+              <h6>Introduction</h6>
+              <div class="supporting_text">
+                <span>Gun culture in the United States is something that all too frequently is brought into the public purview through mass shootings. The United States as a nation owns a near majority of guns on the planet. In addition, they also are subject to one of the highest gun related death rates in the developed world as can been seen in this graphic the United States stands out among its closest peers.
+                </span>
+                <div>
+                  <span class="sources">
+                    <span>
+                      Global Gun Ownership and Death Data from <a href="https://en.wikipedia.org/wiki/List_of_countries_by_firearm-related_death_rate#Sources">Multiple Sources</a>.
+                    </span>
+                    <span>
+                      Human Development Index(HDI) data from <a href="https://en.wikipedia.org/wiki/Human_Development_Index">UN</a>.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class='tableauPlaceholder' id='viz1513100227624' style='position: relative'><noscript><a href='#'><img alt='Outlier dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;Visualizations_23&#47;Outlierdashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Visualizations_23&#47;Outlierdashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;Visualizations_23&#47;Outlierdashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1513100227624');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='800px';vizElement.style.height='627px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+          </section>
+          <section id="states">
+            <div class="left">
+              <h6>US</h6>
+              <div class="supporting_text">
+                <span>As gun legislature has mostly been left to be determined by the respective state governments, we can see differing degrees of violence state to state. Here we see gun related deaths per capita. We can see that the south is particular victim to high violence rates which correlates with their higher than average gun ownership rates.
+                </span>
+                <div>
+                  <span class="sources">
+                    <span>
+                      Population data from <a href="https://census.gov/data/tables/2016/demo/popest/state-total.html">Census</a>.
+                    </span>
+                    <span>
+                      Gun Deaths data from <a href="http://gunviolencearchive.org">Gun Violence Archive</a>.
+                    </span>
+                    <span>
+                      State Gun Law Score from <a href="http://gunlawscorecard.org/">Giffords Law Center</a>.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class='tableauPlaceholder' id='viz1513194425310' style='position: relative'><noscript><a href='#'><img alt='Gun deaths by state ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;Visualizations_23&#47;Gundeathsbystate&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Visualizations_23&#47;Gundeathsbystate' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;Visualizations_23&#47;Gundeathsbystate&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1513194425310');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+          </section>
+          <section id="victims">
+            <div class="left">
+              <h6>Victims</h6>
+              <div class="supporting_text">
+                <span>Unfortunately, all too often victims of gun violence go unnoticed with news coverage only dedicated to mass shootings. However, the vast majority of gun violence incidents result in fewer than 3 victims or  are suicides. Some data gathered by gunviolencearchive.org helps paint a clearer (yet incomplete) picture of the real victims of gun violence.
+                </span>
+                <div>
+                  <span class="sources">
+                    <span>
+                      Victims data from <a href="http://gunviolencearchive.org">Gun Violence Archive</a>.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class='tableauPlaceholder' id='viz1513102653218' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Us&#47;UserTesting_0&#47;VictimsDash&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UserTesting_0&#47;VictimsDash' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Us&#47;UserTesting_0&#47;VictimsDash&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1513102653218');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='800px';vizElement.style.height='650px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+          </section>
+          <section id="bg">
+            <div class="left">
+              <h6>Background Checks</h6>
+              <div class="supporting_text">
+                <span>Gun ownership data is unavailable due to lobbying efforts. Background checks serve as a proxy for gun demand in the United States. While many gun sales require background checks not all do. Different state legislations handle different types of sales and different weapons at their own discretion for the most part. However, there has been a clear increasing trend in the number of background checks over the past 20 years. We can also note a seasonal trend in background checks with a clear spike in December time frame. The other trend is the public response to mass shootings and threats to public safety resulting in increased background checks and gun sales. Some attribute this to anxiety raised around gun reform in response to these events.
+                </span>
+                <div>
+                  <span class="sources">
+                    <span>
+                      Background checks data from <a href="https://www.fbi.gov/services/cjis/nics">FBI NICS</a>.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class='tableauPlaceholder' id='viz1513224505934' style='position: relative'><noscript><a href='#'><img alt='Background Checks ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Us&#47;UserTesting_0&#47;BackgroundChecks&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UserTesting_0&#47;BackgroundChecks' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Us&#47;UserTesting_0&#47;BackgroundChecks&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1513224505934');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='800px';vizElement.style.height='627px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+          </section>
+          <section id="economics">
+            <div class="left">
+              <h6>Economics</h6>
+              <div class="supporting_text">
+                <span>In order to better understand gun culture, it is important to understand the market size. Here we can see various aspects of the supply side of the equation. Gun manufacturing and import numbers dwarf export numbers indicating that the primary consumer of US Gun manufactures are Americans. We also see that Americans are increasingly importing guns to satisfy their demand especially in the handgun market.
+                </span>
+                <div>
+                  <span class="sources">
+                    <span>
+                      Imports, Exports and Manufacturing data from <a href="https://www.atf.gov/resource-center/docs/undefined/firearms-commerce-united-states-annual-statistical-update-2017/download">ATF</a>.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class='tableauPlaceholder' id='viz1513103557753' style='position: relative'><noscript><a href='#'><img alt='Economics ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Us&#47;UserTesting_0&#47;Economics&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UserTesting_0&#47;Economics' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Us&#47;UserTesting_0&#47;Economics&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1513103557753');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='800px';vizElement.style.height='627px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+          </section>
+          <section id="map">
+            <div class="left">
+              <h6>Map</h6>
+              <div class="supporting_text">
+                <span>Again with data provided by gunviolencearchive.org we can see the location and impact of various reported incidents over the past four years. Incidents like the Orlando pulse shooting standout when filtering to larger incidents but perhaps what is more concerning is the sheer volume of incidents. While the major shootings appear to be more concentrated to larger urban areas. Rural areas are not immune to gun violence either.
+                </span>
+                <div>
+                  <span class="sources">
+                    <span>
+                      Incidents data from  <a href="http://gunviolencearchive.org">Gun Violence Archive</a>.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class='tableauPlaceholder' id='viz1513102521101' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Us&#47;UserTesting_0&#47;GunViolenceVisualized&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UserTesting_0&#47;GunViolenceVisualized' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Us&#47;UserTesting_0&#47;GunViolenceVisualized&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1513102521101');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='800px';vizElement.style.height='650px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+          </section>
+          <section id="about">
+            <div class="left">
+              <h6>About</h6>
+              <div class="supporting_text">
+                <div>
+                  <p style="font-size: 20px; line-height: 20px;">Team Members</p>
+                  <span style="display: block;"><a style="color:#F06355;" href="https://www.linkedin.com/in/rohitn/">Rohit Nair</a></span>
+                  <span style="display: block;"><a style="color:#F06355;" href="https://www.linkedin.com/in/kctobin/">Keith Tobin</a></span>
+                </div>
+                <div>
+                  <p style="font-size: 20px">Goal</p>
+                  <span>
+                    We want to present a holistic, multi-faceted and interactive view of the economics, politics and statistics of firearms in US. 
+                  </span>
+                </div>
+                <div>
+                  <p style="font-size: 20px">Audience</p>
+                  <span>
+                    Our audience are general public (preferably from US). We would like to make this tool accessible even to people who are not very comfortable with technology.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+            </div>
+          </section>
+        </section>
+      </div>
+    </article>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.12.0/d3.min.js"></script>
+    <script src="assets/custom/js/home.js"></script>
+
+    <script>
+      Reveal.initialize(
+      {
+        // width: "100%",
+        // height: "100%"
+        controlsLayout: 'edges',
+        // transition: 'slide',
+        // transitionSpeed: 'slow',
+        backgroundTransition: 'slide',  
+      }
+      );
+      Reveal.configure({ mouseWheel: true });
+    </script>
+
+<!--     <script>
+      // Instantiation
+      $(function(){
+        $("article").scrollStory();
+      });
+    </script> -->
+
+   <!--  <script>
+      sr.reveal('.reveal', { reset: true });
+    </script> -->
+  </body>
+</html>
